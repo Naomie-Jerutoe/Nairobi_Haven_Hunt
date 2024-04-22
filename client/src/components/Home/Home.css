@@ -1,0 +1,92 @@
+
+/* .card-image{
+  width: 40%;
+  height: 40%;
+} */
+*{
+  margin: 0;
+  padding: auto;
+}
+.home{
+  background-image: url('./Background2.jpg');
+  height: 100vh;
+  /* margin-top: -100px; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.custom{
+  background-color:#00001a;
+  width: 150vw;
+}
+.imag{
+  height: 20vh;
+}
+.imagee{
+  height: 145px;
+  width: 550px;
+}
+.product-carousel{
+  margin-top: -370px;
+  width: 34vw;
+  display: none;
+}
+.color{
+  background-image: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
+}
+.product-carousel2{
+
+  display: none;
+  margin-top: -170px;
+  width: 31vw;
+float:right;
+}
+.drawkit{
+  width: 380px;
+  height:380px;
+}
+.word h1{
+  margin-left: -2px;
+  max-width: fit-content;
+  width: 15rem;
+  font-size: 30px;
+  font-weight: 200;
+}
+.b{
+  font-weight: 900;
+}
+.product{
+  float: right;
+}
+.p2{
+  float: right;
+  margin-top: -700px;
+  margin-right: 2rem;
+}
+.market{
+  /* background-color: #c76075; */
+  margin-top: 10rem;
+  height: 100vh;
+  margin-left: 10px;
+  margin-right: 16rem;
+  border-radius: 6px;
+}
+.illa{
+  width: 50rem;
+  height: 50rem;
+}
+@media (max-width: 768px) {
+  .div {
+    width: 50px;
+  }
+*{
+  margin: 0;
+  
+}
+.product{
+  width: 10vw;
+}
+.market{
+  margin-top: -12rem;
+}
+}

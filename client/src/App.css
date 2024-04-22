@@ -1,0 +1,188 @@
+/* Base styles - mobile-first approach */
+*{
+    padding: auto;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    /* display: none; */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+
+  @media (max-width: 400px) {
+    :root {
+        /* COLORS */
+        --white: #e9e9e9;
+        --gray: #333;
+        --blue: #0367a6;
+        --lightblue: #008997;
+    
+        /* RADII */
+        --button-radius: 0.7rem;
+    
+        /* SIZES */
+        --max-width: 758px;
+        --max-height: 420px;
+    
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    .container__form {
+        align-items: center;
+        background-color: var(--white);
+        background: url("img.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        height: 100vh;
+        place-items: center;
+        overflow: hidden;}
+        display
+    *{
+        font-size:10px ;
+        padding: 1px;
+        margin: auto;
+        max-width: 100%;
+    }
+    
+    .p2{
+        float: left;
+        
+
+    }
+    .word h1{
+        font-size: 30px;
+        float: left;
+        width: 50%;
+        height: fit-content;
+        margin-left: 6rem;
+        font-weight: 900 ;
+        }
+        
+    .home{
+        
+       padding-top: 55rem;     
+    }
+    .ill{
+        background-image: url(./components/Home/DrawKit.png);
+        height: 100%;
+        width: 100%;
+        margin-top: -4rem;
+    }
+    /* .ill img{
+        height: 50%;
+        width: 50%;
+    } */
+    .brand-logo img{
+        border-radius: 6px;
+    }
+    .drawkit{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .market{
+        height: 50vh;
+        width: 50rem;
+        font-size: 55px;
+    }
+    .illa{
+        float: none;
+        width: 20%;
+        height: 30%;
+        margin-top: -5rem;
+
+    }
+    .illaword{
+        margin-top: -8rem;
+    }
+    .illaword p{
+        
+        
+        
+        font-size: 15px;
+        
+    }
+    .ww p{
+        margin-top: -2rem;
+    }
+    
+}
+
+
+  @media (max-width: 412px) {
+    .p2{
+        float: none;
+        margin-top: 1px;
+        margin-left: 100px;
+
+    }
+    .word h1{
+        margin-top: -13rem;
+        font-size: 20px;
+        float: left;
+        width: 50%;
+        height: fit-content;
+        }
+        
+    .home{
+        margin-top: -260px;
+    }
+    .brand-logo img{
+        border-radius: 6px;
+    }
+    .drawkit{
+        margin-top: 600px;
+        margin-left: 4.5rem;
+        
+    }
+    .market{
+        margin-top: -2rem;
+        width: 100%;
+    }
+    .illa{
+        float: left;
+        width: 40rem;
+        height: 40rem;
+    }
+    .illaword{
+        float: right;
+       
+        font-size: 10px;
+    }
+  }
+  @media (min-width: 768px) {
+    .div {
+      width: 50px;
+    }
+*{
+    margin: 0;
+    
+}
+.product{
+    width: 10vw;
+}
+.market{
+    margin-top: -12rem;
+}
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
